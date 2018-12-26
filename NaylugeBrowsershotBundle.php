@@ -1,5 +1,5 @@
 <?php
-namespace Nayluge\Browsershot;
+namespace Nayluge\BrowsershotBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
