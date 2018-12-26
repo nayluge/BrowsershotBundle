@@ -1,0 +1,34 @@
+{
+  "name": "nayluge/browsershot-bundle",
+  "description": "Generates pdf from html easily",
+  "keywords": [
+    "convert",
+    "webpage",
+    "image",
+    "pdf",
+    "screenshot",
+    "chrome",
+    "headless",
+    "puppeteer"
+  ],
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nayluge",
+      "homepage": "https://github.com/nayluge/"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "symfony/framework-bundle": "^3.4|^4.0",
+    "symfony/options-resolver": "^3.4.4|^4.0",
+    "symfony/property-info": "^3.4|^4.0",
+    "spatie/browsershot": "^3.0.0",
+  },
+  "autoload": {
+    "psr-4": {
+      "Nayluge\\BrowsershotBundle\\": ""
+    }
+  }
+}
