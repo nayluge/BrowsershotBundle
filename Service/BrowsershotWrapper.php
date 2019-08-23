@@ -17,7 +17,7 @@ class BrowsershotWrapper
     {
         $this->browsershot = new Browsershot();
 
-        if($nodePath) {
+        if($npmPath) {
             $this->browsershot->setNpmBinary($npmPath);
         }
 
